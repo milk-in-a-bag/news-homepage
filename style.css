@@ -21,6 +21,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color: hsl(5, 85%, 63%);
+}
 .main-content{
     margin: 0 150px 50px 150px;
     display: grid;
@@ -78,7 +81,10 @@ h3{
     color: hsl(36, 100%, 99%);
     border: hsl(36, 100%, 99%);;
 }
-
+.button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
 .minor-content{
     display: flex;
     margin: 0 150px 10px 150px;
@@ -106,8 +112,17 @@ h3{
     font-weight: bolder;
     font-size: 25px;
 }
+.content-header:hover{
+    color: hsl(5, 85%, 63%);
+}
 .content{
     color: hsl(236, 13%, 42%);
     font-size: 13px;
     font-weight: bold;
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: black;
+    }
+
 }
