@@ -1,4 +1,4 @@
-const hamburger = document.querySelector(".fa-bars");
+const hamburger = document.querySelector(".bars");
 const sideMenu =document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links");
 

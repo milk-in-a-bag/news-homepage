@@ -21,7 +21,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.fa-bars{
+.bars{
     display: none;
     font-size: 30px;
 }
@@ -129,11 +129,7 @@ h3{
     font-weight: bold;
 }
 @media screen and (max-width: 600px){
-    html,body{
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
+    body{
         overflow-x: hidden;
     }
     .mc{
@@ -166,7 +162,7 @@ h3{
     .button{
         margin: 0;
     }
-    .fa-bars{
+    .bars{
         display: inline;
     }
     .nav-links{
@@ -194,7 +190,6 @@ h3{
         flex-direction: column;
         position: relative;
         bottom: 600px;
-        background-color: brown;
     }
     .item1,.item2,.item3{
         margin-bottom: 50px;
