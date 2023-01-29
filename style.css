@@ -21,9 +21,10 @@ a{
     text-decoration: none;
     color: black;
 }
-.bars{
+.bars, .x {
     display: none;
     font-size: 30px;
+    cursor: pointer;
 }
 a:hover{
     color: hsl(5, 85%, 63%);
@@ -165,21 +166,22 @@ h3{
     .bars{
         display: inline;
     }
-    .fa-xmark{
+    .x{
         display: none;
     }
-    .fa-xmark.active{
+    .x.active{
         position: relative;
         display: block;
         z-index: 2;
         font-size: 40px;
-        bottom: 35px;
+        bottom: 5px;
+        right: 35px;
     }
     .nav-links{
         z-index: 1;
         position: relative;
         background-color: white;
-        width: 50vw;
+        width: 55vw;
         height: 100vh;
         right: -100%;
         transition: 2s;
